@@ -57,6 +57,9 @@ const Home = () => {
   };
 
   const handleAddItem = (item: Item): void => {
+    console.log("NOVO-ITEM");
+    console.log(item);
+
     let newList = [...list];
     newList.push(item);
     setList(newList);

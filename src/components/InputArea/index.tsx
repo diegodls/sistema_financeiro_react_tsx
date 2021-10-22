@@ -25,6 +25,10 @@ export const InputArea = ({ onAdd }: Props) => {
   };
 
   const handleAddEvent = () => {
+    console.log("dateSelected");
+    console.log(dateSelected);
+    console.log(new Date(dateSelected));
+
     console.log(dateSelected.length);
 
     let errors: string[] = [];
@@ -97,6 +101,9 @@ export const InputArea = ({ onAdd }: Props) => {
         <C.Title>Valor</C.Title>
         <C.Input
           type='number'
+          placeholder='0.00'
+          min={0}
+          step='.01'
           value={value}
           onChange={(e) => setValue(parseInt(e.target.value))}
         />

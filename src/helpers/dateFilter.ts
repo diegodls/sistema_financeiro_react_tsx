@@ -29,6 +29,9 @@ export const FilterListByMonth = (list: Item[], date: string): Item[] => {
 };
 
 export const formatDate = (date: Date): string => {
+  // console.log("formateDate");
+  // console.log(date);
+
   let year = date.getFullYear();
   let month = date.getMonth() + 1;
   let day = date.getDate();
@@ -76,3 +79,6 @@ export const recoverFromStorage = (): Item[] => {
     return [];
   }
 };
+
+
+//usar o "new Date(e.split("-"))" para consertar o dia
