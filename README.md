@@ -1,5 +1,5 @@
 # sistema_financeiro_react_tsx</br>
-Projeto desenvolvido em React, Typescript e styled-compnents.
+Projeto desenvolvido em React, Typescript e styled-components.
 
 # ❓ Por quê? 
 Esta aplicação foi desenvolvida para testar o aprendizado de [React](https://github.com/facebook/react/) e [Typescript](https://www.typescriptlang.org/). </br>
@@ -26,7 +26,7 @@ Para executar este aplicativo. você deverá ter um ambiente de [trabalho config
 
 # 🔩 Módulos
 Neste projeto foram utilizado os seguintes módulos:</br>
-[styled-components](https://www.styled-components.com/) - *Criação de componentes e estização*</br>
+[styled-components](https://www.styled-components.com/) - *Criação de componentes e estilização*</br>
 
 **E todas as dependências desses módulos que estão presentes em seus respectivos repositórios! **
 
